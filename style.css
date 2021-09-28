@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: serif;
+}
 a {
   text-decoration: none;
   color: #EDC4B3;
@@ -5,8 +14,27 @@ a {
 a:hover {
   color: #F27A48;
 }
+a:active {
+  color: #E3561A;
+}
 body {
   background-color: #EDC4B3;
+}
+h1 {
+  color: #fff;
+  position: absolute;
+  line-height: 375px;
+  padding-left: 35%;
+  font-size: 60px;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #774936;
+}
+p {
+  color: #774936;
+  font-size: 20px;
 }
 .menu {
   display: block;
@@ -14,12 +42,87 @@ body {
   height: 50px;
   position: fixed;
   background-color: #774936;
-  padding: 0px;
-  margin: 0px;
 }
 .menuText {
   display: inline;
   font-size: 20px;
   padding: 20px;
   line-height: 50px;
+}
+.contentTextLeft {
+  width: 49%;
+  height: 400px;
+  display: inline-block;
+  float: left;
+}
+.contentTextRight {
+  width: 49%;
+  height: 400px;
+  display: inline-block;
+  float: right;
+}
+.mainContent {
+  padding: 50px;
+}
+.howToLeft {
+  width: 25%;
+  padding: 5px 0px 0px 5px;
+  float: left;
+}
+.howToPic {
+  width: 250px;
+  height: 150px;
+}
+.howToRight {
+  width: 70%;
+  height: 200px;
+  display: inline-block;
+}
+#heroSectionWaste {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  text-shadow: 4px 4px #774936;
+}
+#heroSectionRecycling {
+  background-image: url('herorecycling.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  text-shadow: 4px 4px #774936;
+}
+#heroSectionHowTo {
+  background-image: url('herohowto.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  text-shadow: 4px 4px #774936;
+}
+#moreHeaderPadding {
+  padding-left: 40%;
+}
+#issueStatement {
+  width: 90%;
+  color: #774936;
+  margin: auto;
+}
+#picLeft {
+  width: 49%;
+  height: 400px;
+  background-image: url('landfill1.jpg');
+  background-size: cover;
+  background-position: center center;
+  float: left;
+}
+#picRight {
+  width: 49%;
+  height: 400px;
+  background-image: url('landfill2.jpg');
+  background-size: cover;
+  background-position: center center;
+  float: right;
+}
+#moreContentRightPadding {
+  padding: 15px 0px 0px 0px;
 }
